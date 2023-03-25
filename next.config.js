@@ -27,6 +27,7 @@ const nextConfig = {
   strictMode: true,
   swcMinify: true,
   trailingSlash: false,
+  distDir: 'build',
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
   },
